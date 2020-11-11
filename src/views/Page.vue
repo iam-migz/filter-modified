@@ -35,7 +35,7 @@ export default {
             checkboxStatus: 'on',
             products: this.getProducts(),
             selectedTags: this.getProducts(),
-            currentProductDetail:  {id:1,name:'Bacon',category:['Meat'], price: 60, url: '/img/bacon.jpg', description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.' }
+            currentProductDetail: {id:1,name:'Bacon',category:['Meat'], price: 60, url: '/img/bacon.jpg', description: 'Bacon is salt-cured meat cut from a pig\'s belly or back. It is served on its own, incorporated into meals (such as eggs and bacon), or used as an ingredient in dishes like sandwiches, soups, salads, and even sweets like maple bacon ice cream.' }
         }
     },
     methods: {

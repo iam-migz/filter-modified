@@ -8,7 +8,6 @@
                 :src="detailedItem.url"
                 height="250"
             ></v-img>
-
             <v-card-title>{{detailedItem.name}}</v-card-title>
             <v-card-subtitle>₱ {{detailedItem.price}} only</v-card-subtitle>
             <v-divider></v-divider>
