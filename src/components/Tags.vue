@@ -3,7 +3,6 @@
             <v-checkbox
                 v-for="tag in tags"
                 :key="tag"
-
                 v-model="selected"
                 @click="changeTags"
                 :label="tag"
