@@ -9,12 +9,12 @@
                 :value="tag"
             ></v-checkbox>
             <v-btn
-                class="mt-4 ml-3"
                 outlined
                 fab
                 color="primary"
                 x-small
                 @click="reset"
+                id="btn-check"
             >
                 <v-icon>mdi-check-all</v-icon>
             </v-btn>
@@ -72,7 +72,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#checkbox{
-    display:flex;
+.tags{
+    display: flex;
+}
+#btn-check{
+    margin-top: 15px;
+    margin-left: 5px;
 }
 </style>

@@ -6,7 +6,7 @@
             @click="send(product)"
             
         >
-            <v-card-title> {{ product.name  }} ₱{{ product.price }}</v-card-title>
+            <v-card-title> {{ product.name  }} ₱ {{ product.price }}</v-card-title>
             <v-card-subtitle> 
                 <span
                     v-for="cat in product.category"

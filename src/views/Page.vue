@@ -1,6 +1,5 @@
 <template>
     <div class="container">
-
         <div class="search-box">
             <Search @search-data="fromSearch" />
         </div>
